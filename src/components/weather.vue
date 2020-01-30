@@ -1,7 +1,7 @@
 <template>
   <div id="weather">
     <form @submit.prevent="getWeather(inputLocation)" class="form">
-      <input type="text" v-model="inputLocation" />
+      <input type="text" placeholder="Enter city name" v-model="inputLocation" />
       <button type="submit">Submit</button>
     </form>
     <div v-if="responseCode" id="forecast" class="text-center">
