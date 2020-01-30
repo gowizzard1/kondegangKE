@@ -47,7 +47,7 @@
 <script>
 import axios from "axios";
 
-let url = "http://127.0.0.1:5000";
+let url = "https://api.openweathermap.org";
 export default {
   name: "weather",
   data: function() {
@@ -69,7 +69,9 @@ export default {
       axios
         .get(
           url +
-            "/api/getbyname?city=" + inputTitle
+            "/data/2.5/weather?q=" +
+            inputTitle +
+            "&appid=7ddbbac4414598a0582efd0c12096e75&units=metric"
         )
         .then(response => {
           this.responseCode = response.cod
