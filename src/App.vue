@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="text">
-      <img alt="Vue logo" src="./assets/logo.png">
+      <img alt="Vue logo" src="./assets/40younglmtee9cb2.jpg">
       <h2>Teazzy Weather Project</h2>
     </div>
     <weather/>
