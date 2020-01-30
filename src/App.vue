@@ -2,7 +2,7 @@
   <div id="app">
     <div class="text">
       <img alt="Vue logo" src="./assets/logo.png">
-      <h2>PowerGen Weather Project</h2>
+      <h2>Teazzy Weather Project</h2>
     </div>
     <weather/>
   </div>
